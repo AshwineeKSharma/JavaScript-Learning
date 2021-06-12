@@ -99,7 +99,7 @@ class Display {
                         <td>${element.bookName}</td>
                         <td>${element.authorName}</td>
                         <td>${element.bookGenre}</td>
-                        <td><button id="${index}" onclick="deleteBook(this.id)" class="btn btn-primary">Delete Book</button></td>
+                        <td><button id="${index}" onclick="deleteBook(this.id)" class="btn btn-danger">Delete Book</button></td>
                       </tr>`;
         });
         let tableBody = document.getElementById('tableBody');
